@@ -3,7 +3,7 @@ const Calculator = require('./calculator');
 const calculator = new Calculator(5, 2);
 
 test('adds 5 + 2 to equal 7', () => {
-    expect(calculator.sum()).toBe(6);
+    expect(calculator.sum()).toBe(7);
 });
 
 test('sub 5 - 2 to equal 3', () => {
